@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <meta charset="utf-8">
+    <title>Menu</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('a[href^="#"]').click(function() {
+        var ou = $(this).attr("href").substr(1);
+        var saut = $("a[name='"+ ou +"']");
+        $('html,body').animate({scrollTop: $(saut).offset().top}, 1000);
+        return false;
+      });
+    });
+
+    </script>
+
+  <div id="bande">
+
+       <ul id="menu">
+         <li> <a href="#espace">Espace</a></li>
+         <li> <a href="#terre">Terre</a></li>
+         <li> <a href="#mer">Mer</a></li>
+       </ul>
+     </div>
+
+<div class="cont1">
+    <a name="espace"></a>
+    <div class="container1">
+    <img src="http://img1.mxstatic.com/wallpapers/900976145c9120f7abcba4864a11f484_large.jpeg">
+    </div>
+</div>
+
+<div class="cont2">
+<a name="terre"></a>
+<div class="container2">
+<img src="http://img.myswitzerland.com/mys/4068/6596/images/buehne/sts1217_43f-1.jpg">
+</div>
+</div>
+
+<div class="cont3">
+<div class="container3">
+<img src="http://observatoirepolynesie.org/cetaces/wp-content/uploads/baleine_a_bosse.jpg">
+</div>
+<a name="mer"></a>
+</div>
+
+
+  </body>
+</html>
