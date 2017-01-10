@@ -40,6 +40,11 @@ filter: blur(5px);
 
 ## CSS :after element using nth child or nth :
 
+p:nth-child(3n+1) {
+    background: red;
+}
+
+EX:
 https://css-tricks.com/forums/topic/target-after-element-using-nth-child-or-nth-of-type/
 http://www.w3schools.com/cssref/sel_nth-child.asp
 
