@@ -38,7 +38,9 @@ filter: blur(5px);
 
 
 
-## CSS :after element using nth child or nth
+## CSS :after element using nth child or nth :
 
 https://css-tricks.com/forums/topic/target-after-element-using-nth-child-or-nth-of-type/
+http://www.w3schools.com/cssref/sel_nth-child.asp
+
 
