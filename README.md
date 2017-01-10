@@ -35,3 +35,10 @@ EX:
 -ms-filter: blur(5px);
 
 filter: blur(5px);
+
+
+
+## CSS :after element using nth child or nth
+
+https://css-tricks.com/forums/topic/target-after-element-using-nth-child-or-nth-of-type/
+
