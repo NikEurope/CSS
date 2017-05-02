@@ -1,0 +1,131 @@
+<!CSS Tricks  EX  https://css-tricks.com/examples/ShapesOfCSS/  --------------->
+
+<!DOCTYPE HTML>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport">
+
+     <!-- Title Site -->
+     <title>CSS Tricks</title>
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+ </head>
+
+<!----------------------------------------- -->
+
+<body>
+
+<!--STYLE --------------------------------------- -->
+
+<style type="text/css">
+
+/*CSS GLOBAL*/
+body{
+  padding: 50px 50px;
+}
+
+/*CSS Tricks*/
+.square {
+  width: 100px;
+  height: 100px;
+  background: #ff9900;
+}
+
+.rectangle {
+  width: 200px; height: 100px; background: #ff9900; }
+
+.circle { width: 200px; height: 200px; background: #ff9900; -moz-border-radius: 50px; -webkit-border-radius: 100px; border-radius: 100px; }
+
+.oval { width: 200px; height: 100px; background: #ff9900; -moz-border-radius: 100px / 50px; -webkit-border-radius: 100px / 50px; border-radius: 100px / 50px; }
+
+
+.coeur { position: relative; width: 100px; height: 90px;}
+.coeur:before,
+.coeur:after { position: absolute; content: ""; left: 50px; top: 0; width: 50px; height: 80px; background: red; -moz-border-radius: 50px 50px 0 0; border-radius: 50px 50px 0 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-transform-origin: 0 100%; -moz-transform-origin: 0 100%; -ms-transform-origin: 0 100%; -o-transform-origin: 0 100%; transform-origin: 0 100%; }
+.coeur:after { left: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); -webkit-transform-origin: 100% 100%; -moz-transform-origin: 100% 100%; -ms-transform-origin: 100% 100%; -o-transform-origin: 100% 100%; transform-origin :100% 100%; }
+
+
+#infinity { position: relative; width: 212px; height: 100px; } #infinity:before, #infinity:after { content: ""; position: absolute; top: 0; left: 0; width: 60px; height: 60px; border: 20px solid red; -moz-border-radius: 50px 50px 0 50px; border-radius: 50px 50px 0 50px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); } #infinity:after { left: auto; right: 0; -moz-border-radius: 50px 50px 50px 0; border-radius: 50px 50px 50px 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+
+
+ #facebook-icon { background: red; text-indent: -999em; width: 100px; height: 110px; border-radius: 5px; position: relative; overflow: hidden; border: 15px solid red; border-bottom: 0; } #facebook-icon::before { content: "/20"; position: absolute; background: red; width: 40px; height: 90px; bottom: -30px; right: -37px; border: 20px solid #eee; border-radius: 25px; } #facebook-icon::after { content: "/20"; position: absolute; width: 55px; top: 50px; height: 20px; background: #eee; right: 5px; }
+
+
+ #cross { background: red; height: 100px; position: relative; width: 20px; } #cross:after { background: red; content: ""; height: 20px; left: -40px; position: absolute; top: 40px; width: 100px; }
+
+</style>
+
+
+<!-- CONTENT--------------------------------------- -->
+
+<H1>CSS Tricks</H1>
+<br />
+
+<p>Square</p>
+<div class="square"></div>
+<br />
+
+<p>Rectangle</p>
+<div class="rectangle"></div>
+<br />
+
+<p>Circle</p>
+<div class="circle"></div>
+<br />
+
+<p>Oval</p>
+<div class="oval"></div>
+<br />
+
+<p>Coeur</p>
+<div class="coeur"></div>
+<br />
+
+
+<p>Infinity</p>
+<div id="infinity"></div>
+<br />
+
+
+
+<p>Facebook</p>
+<div id="facebook-icon"></div>
+<br />
+
+<p>Cross</p>
+<div id="cross"></div>
+<br />
+
+
+
+<!-- FOOTER-------------------->
+<footer>
+<!-- Container Copyright-------------------->
+<div class="Copyright">
+</div>
+</footer>
+
+
+
+<!-- SCRIPT ------------------------------------------>
+<script type="text/javascript">
+
+// scroll function
+
+</script>
+<!-- SCRIPT END -->
+
+
+</body>
+
+</html>
