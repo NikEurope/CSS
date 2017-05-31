@@ -5,6 +5,13 @@ https://htmlpreview.github.io/?https://github.com/NikEurope/CSS/blob/master/inde
 
 https://htmlpreview.github.io/?https://github.com/NikEurope/CSS/blob/master/CSS-Tricks.html
 
+
+
+CollapseMenu:
+https://htmlpreview.github.io/?https://github.com/NikitaEurope/CSS/blob/master/CollapseMenu.html
+
+
+
 CSS
 
 http://www.w3schools.com/css/
