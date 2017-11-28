@@ -1,5 +1,5 @@
 
-site 3 PAGES
+Site 3 PAGES
 
 https://htmlpreview.github.io/?https://github.com/NikEurope/CSS/blob/master/index.html
 
@@ -60,3 +60,10 @@ http://www.w3schools.com/cssref/sel_nth-child.asp
 Animation  :
 
 https://htmlpreview.github.io/?https://github.com/NikitaEurope/CSS/blob/master/Animation
+
+
+CSS animation generator :
+
+http://cssanimate.com/
+
+
